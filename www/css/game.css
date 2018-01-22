@@ -1,0 +1,67 @@
+body{
+   background-color: skyblue;
+   height:100%;
+   width:100%;
+   margin:0;
+   padding:0;
+}
+
+#plateauJeu{
+   positon: relative;
+   background-color: white;
+   border-radius: 25px;
+   margin-left: 0px;
+   width: 100vw;
+   height: 100vh;
+   padding:0px;
+}
+
+#plane {
+   position:absolute;
+   width: 20px;
+   height:20px;
+   margin:0px;
+}
+.bouncer {
+   margin:auto;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+}
+p{
+   margin-top:0;
+   margin-left:2vw;
+   color:tomato;
+}
+
+@media only screen and (min-width: 640px) {
+   #plateauJeu{
+      positon: relative;
+      background-color: white;
+      border-radius: 25px;
+      margin-left: 0px;
+      width: 40vw;
+      height: 90vh;
+      padding:0px;
+   }
+   #plane {
+      position:absolute;
+      width: 30px;
+      height:30px;
+      margin:0px;
+   }
+   .bouncer {
+      margin:auto;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+   }
+
+   p{
+      margin-top:0;
+      margin-left:2vw;
+      color:tomato;
+   }
+
+
+}
